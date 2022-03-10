@@ -27,6 +27,16 @@ const Navbar = () => (
         <a href="#contact">Contact</a>
       </li>
     </ul>
+    <div className="app_navbar-login">
+      <a href="#login" className="p_opensans">
+        Login / Register
+      </a>
+      <div>
+        <a href="/" className="p_opensans">
+          Book Table
+        </a>
+      </div>
+    </div>
   </nav>
 );
 
